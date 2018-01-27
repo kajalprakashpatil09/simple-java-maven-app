@@ -29,6 +29,15 @@ public class AppTest
             fail("Construction failed.");
         }
     }
+    
+    @Test
+    public void testAppConstructor1() {
+	    try {
+            new App();
+        } catch (Exception e) {
+            fail("Construction failed.");
+        }
+    }
 
     @Test
     public void testAppMain()
