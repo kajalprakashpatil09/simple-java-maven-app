@@ -31,7 +31,7 @@ public class AppTest
     }
     
     @Test
-    public void testAppConstructor2() {
+    public void testAppConstructor1() {
 	    try {
             new App();
         } catch (Exception e) {
